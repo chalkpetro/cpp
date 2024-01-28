@@ -1,11 +1,11 @@
 #include <iostream>
 #include <limits>
 
-using namespace std; 
-
-
 #define V 4  
 #define INF 99999  
+
+using namespace std; 
+
 void printSolution(int dist[][V]);  
 void floydWarshall (int graph[][V])  
 {  
